@@ -1,0 +1,14 @@
+/home/mangust/Hydro/HydroService/bin/Debug/netcoreapp2.1/HydroService.deps.json
+/home/mangust/Hydro/HydroService/bin/Debug/netcoreapp2.1/HydroService.runtimeconfig.json
+/home/mangust/Hydro/HydroService/bin/Debug/netcoreapp2.1/HydroService.runtimeconfig.dev.json
+/home/mangust/Hydro/HydroService/bin/Debug/netcoreapp2.1/HydroService.dll
+/home/mangust/Hydro/HydroService/bin/Debug/netcoreapp2.1/HydroService.pdb
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.csprojAssemblyReference.cache
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.csproj.CoreCompileInputs.cache
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.RazorAssemblyInfo.cache
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.RazorAssemblyInfo.cs
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.AssemblyInfoInputs.cache
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.AssemblyInfo.cs
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.RazorTargetAssemblyInfo.cache
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.dll
+/home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.pdb
