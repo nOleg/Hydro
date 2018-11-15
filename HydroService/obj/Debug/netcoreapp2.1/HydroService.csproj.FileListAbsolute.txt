@@ -12,3 +12,4 @@
 /home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.RazorTargetAssemblyInfo.cache
 /home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.dll
 /home/mangust/Hydro/HydroService/obj/Debug/netcoreapp2.1/HydroService.pdb
+/home/mangust/Hydro/HydroService/bin/Debug/netcoreapp2.1/app.db

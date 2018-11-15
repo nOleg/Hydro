@@ -1,0 +1,14 @@
+/home/mangust/Hydro/UTests/obj/Debug/netcoreapp2.1/UTests.csprojAssemblyReference.cache
+/home/mangust/Hydro/UTests/obj/Debug/netcoreapp2.1/UTests.csproj.CoreCompileInputs.cache
+/home/mangust/Hydro/UTests/obj/Debug/netcoreapp2.1/UTests.AssemblyInfoInputs.cache
+/home/mangust/Hydro/UTests/obj/Debug/netcoreapp2.1/UTests.AssemblyInfo.cs
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/UTests.deps.json
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/UTests.runtimeconfig.json
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/UTests.runtimeconfig.dev.json
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/UTests.dll
+/home/mangust/Hydro/UTests/bin/Debug/netcoreapp2.1/UTests.pdb
+/home/mangust/Hydro/UTests/obj/Debug/netcoreapp2.1/UTests.dll
+/home/mangust/Hydro/UTests/obj/Debug/netcoreapp2.1/UTests.pdb
