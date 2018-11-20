@@ -6,6 +6,7 @@ namespace Gold.Vikings.Models{
     public class DayShedule : ISchedule, IBoat
     {
         [Key]
+    
         public int DaySheduleId{ get; set;}
         public int ScheduleId { get; set; }
         public DateTime TimeStart { get; set; }
