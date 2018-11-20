@@ -12,6 +12,7 @@ namespace HydroApp.Controllers
     {
         public IActionResult Index()
         {
+            
             return View();
         }
 

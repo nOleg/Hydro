@@ -34,3 +34,4 @@
 /home/mangust/Hydro/HydroApp/obj/Debug/netcoreapp2.1/HydroApp.dll
 /home/mangust/Hydro/HydroApp/obj/Debug/netcoreapp2.1/HydroApp.pdb
 /home/mangust/Hydro/HydroApp/obj/Debug/netcoreapp2.1/HydroApp.csproj.CopyComplete
+/home/mangust/Hydro/HydroApp/obj/Debug/netcoreapp2.1/Razor/Views/Boat/Index.g.cshtml.cs
