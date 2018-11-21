@@ -1,4 +1,71 @@
 
+@model Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable<System.Linq.IGrouping<string, HydroApp.HDRM.DayShedules>>
+
+<style>
+.card{
+    
+display: inline-block;
+width: 300px;
+height: 150px;
+margin: 5px 15px 5px 5px;
+
+border: 2px solid white;
+border-radius: 5px;
+color:white;
+background-color: #4285f4;
+position: relative;
+}
+
+.card::after{
+    content: "";
+    background-image: url(~/wwwroot/images/pic1.jpg);
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    top: 15px;
+    right:  -22px;
+    background-color: lightseagreen;
+    opacity: .8;
+}
+
+.daycalendar{
+    background: #34a853;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    border-radius: 10px 10px 0 0;
+}
+.cardheader{
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    background: #ff9e00;
+    padding: 10px;
+    font-size: 18px;
+text-align: center;
+color: darkblue;
+}
+.content{
+    background: whitesmoke;
+    border-radius: 10px;
+}
+</style>
 
 
-<div>На месте!!!</div>
+
+<div class="content">
+@foreach (var item in Model)
+{
+<div class="daycalendar">@item.Key</div>
+@foreach (var subitem in item)
+{
+    <div class="card">
+        <div class="cardheader">@subitem.BoatName</div>
+    </div>
+}
+
+}
+</div>
+
