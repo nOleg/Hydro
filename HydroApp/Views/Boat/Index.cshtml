@@ -1,5 +1,5 @@
 
-@model Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable<System.Linq.IGrouping<string, HydroApp.HDRM.DayShedules>>
+@model IQueryable<IGrouping<string, DayShedules>>
 
 <style>
 .card{
@@ -18,7 +18,9 @@ position: relative;
 
 .card::after{
     content: "";
-    background-image: url(~/wwwroot/images/pic1.jpg);
+    background-image: url(../images/pic1.jpg);
+    background-size: 70px 70px;
+     
     position: absolute;
     border: 3px solid white;
     border-radius: 50%;
@@ -50,6 +52,11 @@ color: darkblue;
 .content{
     background: whitesmoke;
     border-radius: 10px;
+    margin: 15px 0 0 0;
+}
+.card-info{
+    font-size: 16px;
+    margin: 5px;
 }
 </style>
 
@@ -61,8 +68,13 @@ color: darkblue;
 <div class="daycalendar">@item.Key</div>
 @foreach (var subitem in item)
 {
-    <div class="card">
-        <div class="cardheader">@subitem.BoatName</div>
+        <div class="card">
+            <div class="cardheader">@subitem.BoatName</div>
+            <div class="card-info">
+                <div>@subitem.BoatComment</div>
+                <div>@subitem.TimeStart</div>
+                <div>@subitem.TimeEnd</div>
+            </div>
     </div>
 }
 

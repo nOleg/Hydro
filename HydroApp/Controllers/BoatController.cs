@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -41,7 +42,38 @@ namespace HydroApp.Controllers
 //             res.Close();
 //var mdl=from c in db.DayShedules select new DayShedules(){c,c.} 
 
-var sss=db.DayShedules.GroupBy(c=>c.TimeStart.ToString().Substring(0,10));
+//var sss=from c in  db.DayShedules  group c by c.TimeStart.ToString().Substring(0,10) into g  group g by g; 
+
+var sss=from c in db.DayShedules
+        group c by c.TimeStart.ToString().Substring(0,10) into newGroup1 select newGroup1;
+        // from newGroup2 in
+        //     (from c in newGroup1
+        //      group c by c.BoatId)
+        // group newGroup2 by newGroup1.Key;
+
+
+
+
+foreach(var item in sss){
+Debug.WriteLine(item.Key);
+    foreach(var item1 in item){
+
+//         foreach (var item2 in item1)
+//         {
+
+// string str=item2.BoatName;
+
+
+//         }
+    }
+}
+
+//var bbb=sss..GroupBy(c=>c)
+
+// foreach(var col in sss){
+// string ss="";
+
+// }
 
             return View(sss);
         }

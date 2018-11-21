@@ -23,8 +23,13 @@ using HydroApp.Models;
 
 #line default
 #line hidden
+#line 3 "/home/mangust/Hydro/HydroApp/Views/_ViewImports.cshtml"
+using HydroApp.HDRM;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"583387379a597938339285f5a623245873b0a91c", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"55dfa415b2303ccc69ea7a31aa4a49fdcbe5b672", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a21f39e0514f1958b2e2ef215b9355dc43487a", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998
