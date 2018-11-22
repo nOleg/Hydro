@@ -2,12 +2,19 @@
 @model IQueryable<IGrouping<string, DayShedules>>
 
 <style>
+:root{
+    --img-mini:60px;
+    --img-maxi:250px;
+}
+
 .card{
     
 display:inline-block;
-width: 300px;
-height: 150px;
-margin: 5px 15px 5px 5px;
+width: 100%;
+height: 200px;
+max-width: 300px;
+margin: 3px 0;
+/* margin: 5px 15px 5px 5px; */
 
 border: 2px solid white;
 border-radius: 5px;
@@ -18,34 +25,67 @@ cursor: pointer;
 
 }
 
-.card input{
+
+input[type="checkbox"]:checked + .card{
+    background: #34a853;
+    transition: 1s;
+}
+
+input[name=selmaster] {    
     display: none;
     position: fixed;
     z-index: -1;
 }
 
 
+.image-card-boat{
 
-
-
-
-
-
-.card::after{
-    
-    content: "";
     background-image: url(../images/pic1.jpg);
-    background-size: 70px 70px;
+    background-size: var(--img-mini) var(--img-mini);
      
     position: absolute;
-    border: 3px solid white;
+    border: 3px solid #4285f4;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    top: 15px;
-    right:  -22px;
+    width: var(--img-mini);
+    height: var(--img-mini);
+    top: 50px;
+    right:  5px;
     background-color: lightseagreen;
-    opacity: .8;
+    opacity: .85;
+}
+.image-card-person{
+
+background-image: url(../images/face1.jpg);
+background-size: var(--img-mini) var(--img-mini);
+ 
+position: absolute;
+border: 3px solid #4285f4;
+border-radius: 50%;
+width: var(--img-mini);
+height: var(--img-mini);
+top: 105px;
+right:  5px;
+background-color: lightseagreen;
+opacity: .85;
+}
+
+.image-card-boat:hover{
+    z-index: 99999;
+    width: var(--img-maxi);
+    height: var(--img-maxi);
+    background-size: var(--img-maxi) var(--img-maxi);
+  opacity: 1;
+  border-radius: 5px;
+  border: 5px solid #e7e8e9;
+}
+.image-card-person:hover{
+    z-index: 99999;
+    width: var(--img-maxi);
+    height: var(--img-maxi);
+    background-size: var(--img-maxi) var(--img-maxi);
+  opacity: 1;
+  border-radius: 5px;
+  border: 5px solid #e7e8e9;
 }
 
 .daycalendar{
@@ -69,31 +109,44 @@ color: darkblue;
     background: whitesmoke;
     border-radius: 10px;
     margin: 15px 0 0 0;
-}
+    }
 .card-info{
     font-size: 16px;
     margin: 5px;
+}
+.block{
+    padding: 10px;
 }
 </style>
 
 
 
 <div class="content">
+     
 @foreach (var item in Model)
 {
 <div class="daycalendar">@item.Key</div>
+<div class="block">
 @foreach (var subitem in item)
 {
-        <li class="card">
-            <input id="checkbox1" type="checkbox" name="checkbox" />
+
+        <input id="checkbox{@subitem.DaySheduleId}" type="checkbox" name="selmaster" />
+       <label class="card" for="checkbox{@subitem.DaySheduleId}">
+      
+            <div class="image-card-boat" ></div>
+            <div class="image-card-person" ></div>
+            
             <div class="cardheader">@subitem.BoatName</div>
-            <div class="card-info" for="checkbox1">
+            <div class="card-info">
                 <div>@subitem.BoatComment</div>
                 <div>@subitem.TimeStart</div>
                 <div>@subitem.TimeEnd</div>
             </div>
-        </li>
+       
+    </label>
+   
 }
+</div>
 
 }
 </div>
