@@ -4,7 +4,7 @@
 <style>
 .card{
     
-display: inline-block;
+display:inline-block;
 width: 300px;
 height: 150px;
 margin: 5px 15px 5px 5px;
@@ -14,9 +14,25 @@ border-radius: 5px;
 color:white;
 background-color: #4285f4;
 position: relative;
+cursor: pointer;
+
 }
 
+.card input{
+    display: none;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
 .card::after{
+    
     content: "";
     background-image: url(../images/pic1.jpg);
     background-size: 70px 70px;
@@ -68,14 +84,15 @@ color: darkblue;
 <div class="daycalendar">@item.Key</div>
 @foreach (var subitem in item)
 {
-        <div class="card">
+        <li class="card">
+            <input id="checkbox1" type="checkbox" name="checkbox" />
             <div class="cardheader">@subitem.BoatName</div>
-            <div class="card-info">
+            <div class="card-info" for="checkbox1">
                 <div>@subitem.BoatComment</div>
                 <div>@subitem.TimeStart</div>
                 <div>@subitem.TimeEnd</div>
             </div>
-    </div>
+        </li>
 }
 
 }

@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "/home/mangust/Hydro/UTests/UTests.csproj",
+  "ProjectFilePath": "/home/oleg/Документы/Hydro/UTests/UTests.csproj",
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }

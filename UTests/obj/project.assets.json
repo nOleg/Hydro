@@ -2061,10 +2061,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
+      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -2974,10 +2975,12 @@
       ]
     },
     "System.ComponentModel/4.0.1": {
-      "sha512": "oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "sha512": "3AOvy/bB7s8yAkolZOlqGeLDrPySuYsgkk7hKIBWn5a/Le7V16PDYQIzj7w7hi4UUXXmEmN/ZehNlAi5eD9r5w==",
       "type": "package",
       "path": "system.componentmodel/4.0.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5741,23 +5744,23 @@
     ]
   },
   "packageFolders": {
-    "/home/mangust/.nuget/packages/": {},
+    "/home/oleg/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mangust/Hydro/UTests/UTests.csproj",
+      "projectUniqueName": "/home/oleg/Документы/Hydro/UTests/UTests.csproj",
       "projectName": "UTests",
-      "projectPath": "/home/mangust/Hydro/UTests/UTests.csproj",
-      "packagesPath": "/home/mangust/.nuget/packages/",
-      "outputPath": "/home/mangust/Hydro/UTests/obj/",
+      "projectPath": "/home/oleg/Документы/Hydro/UTests/UTests.csproj",
+      "packagesPath": "/home/oleg/.nuget/packages/",
+      "outputPath": "/home/oleg/Документы/Hydro/UTests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/mangust/.nuget/NuGet/NuGet.Config"
+        "/home/oleg/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
